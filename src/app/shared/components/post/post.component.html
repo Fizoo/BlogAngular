@@ -1,0 +1,17 @@
+
+<div class="containers">
+  <div class="card">
+    <div class="box">
+      <div class="content">
+        <h2>{{num}}</h2>
+        <h3>{{post.title|titlecase}}</h3>
+        <p>{{post.author|titlecase}}</p>
+        <p>{{post.date|date}}</p>
+        <a [appIdxColor]="idx"
+           [routerLink]="['/post',post.id]">Read more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+

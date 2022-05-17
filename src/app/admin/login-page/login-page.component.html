@@ -1,0 +1,57 @@
+<div class="container-wrap">
+  <div class="alertErr" *ngIf="auth.error$|async as error"  >
+    {{error}}
+  </div>
+  <div class="alertErr" *ngIf="message"  >
+    {{message}}
+  </div>
+  <div class="myForm">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <h3>Log In</h3>
+      <div class="inputBox"  >
+        <span>Username</span>
+        <div class="box">
+          <div class="icon">
+            <mat-icon>person</mat-icon>
+          </div>
+          <input [ngClass]="{invalid:email.touched && email.invalid}" type="text" formControlName="email">
+        </div>
+        <div
+          *ngIf="email.touched && email.invalid"
+          class="validations">
+          <small *ngIf="email?.errors?.['required']">enter your email address </small>
+          <small *ngIf="email?.errors?.['email']">Please enter a valid email address</small>
+        </div>
+      </div>
+
+      <div class="inputBox"  >
+        <span>Password</span>
+        <div class="box">
+          <div class="icon">
+            <mat-icon>lock </mat-icon>
+          </div>
+          <input [ngClass]="{invalid:form.get('password')?.touched && form.get('password')?.invalid}" type="password" formControlName="password">
+
+        </div>
+        <div
+          *ngIf="password.touched && password.invalid"
+          class="validations">
+          <small *ngIf="password.errors?.['required']">
+            Password required
+          </small>
+          <small *ngIf="password.errors?.['minlength']">
+            Min length password is {{password.errors?.['minlength']['requiredLength']}}symbols.
+            Now {{password.errors?.['minlength']['actualLength']}}
+          </small>
+        </div>
+      </div>
+
+      <div class="inputBox">
+        <div class="box">
+          <input type="submit" value="Log in"  [disabled]="form.invalid||submitted">
+        </div>
+      </div>
+    </form>
+  </div>
+
+</div>
