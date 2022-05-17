@@ -14,7 +14,7 @@ import {SharedModule} from "../shared/shared.module";
 import {AuthGuard} from "./shared/services/auth.guard";
 import {SearchPipe} from './shared/search.pipe';
 import {AlertComponent} from './shared/alert/alert.component';
-import {CardPageComponent} from './card-page/card-page.component';
+
 
 
 const routes:Routes=[
@@ -36,8 +36,6 @@ const routes:Routes=[
     SearchPipe,
     EditPageComponent,
     AlertComponent,
-
-    CardPageComponent
   ],
   imports: [
     CommonModule,

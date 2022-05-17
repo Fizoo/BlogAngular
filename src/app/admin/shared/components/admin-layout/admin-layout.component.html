@@ -1,8 +1,8 @@
 <app-alert></app-alert>
-<nav class="navbar bg-primary">
-  <h1>
-    <a href=""></a>
-  </h1>
+<nav class="navbar nav ">
+
+    <button [routerLink]="['/']">Blog</button>
+
 
   <ul *ngIf="auth.isAuthenticated()">
     <li routerLinkActive="active">

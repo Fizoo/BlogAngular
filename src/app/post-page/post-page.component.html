@@ -4,19 +4,23 @@
     <div class="header">
       <h1>{{post.title}}</h1>
 
-      <button routerLink="/" class="btn btn-link">To main</button>
+      <button routerLink="/" class="toMain ">To main</button>
+    </div>
+
+
+
+    <div class="view">
+     <quill-view-html [content]="post.text" >
+     </quill-view-html>
     </div>
 
     <div class="info">
       <strong>{{post.author}}</strong>
       <small>{{post.date|date:'medium':'':'ru'}}</small>
     </div>
-
-    <div>
-     <quill-view-html [content]="post.text">
-     </quill-view-html>
-    </div>
   </div>
+
+
 </div>
 
 <ng-template #loading>

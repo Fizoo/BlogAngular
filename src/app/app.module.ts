@@ -14,6 +14,8 @@ import {HTTP_INTERCEPTORS} from "@angular/common/http";
 import {AuthInterceptor} from "./shared/auth.interceptor";
 import {IdxColorDirective} from "./shared/components/post/idx-color.directive";
 import { SwiperModule } from 'swiper/angular';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 registerLocaleData(ruLocale,'ru')
@@ -37,7 +39,13 @@ const  INTERCEPTOR_PROVIDERS:Provider={
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    SwiperModule
+    SwiperModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
 
   ],
   providers: [INTERCEPTOR_PROVIDERS],

@@ -1,4 +1,4 @@
-<div *ngIf="form; else loading">
+<div *ngIf="form; else loading" class="edit">
   <form [formGroup]="form" (ngSubmit)="onSubmit()">
     <div
       class="form-control"
@@ -17,7 +17,7 @@
     </div>
 
     <button
-      class="btn btn-primary"
+      class="btn btn-primary reset"
       type="submit"
       [disabled]="form.invalid||submitted"
     >
