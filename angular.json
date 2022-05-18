@@ -28,9 +28,6 @@
         "@schematics/angular:resolver": {
           "skipTests": true
         },
-        "@schematics/angular:service": {
-          "skipTests": true
-        },
         "@schematics/angular:application": {
           "strict": true
         }

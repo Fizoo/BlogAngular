@@ -1,0 +1,16 @@
+.nav{
+  background: #7d2222;
+  box-shadow:inset 0 -10px 10px rgba(188, 98, 98, 0.5);
+
+  button{
+    border: none;
+    padding:0 10px ;
+    border-radius: 15px;
+    background: inherit;
+    color: gray;
+    cursor: pointer;
+    &:hover{
+      color: white;
+    }
+  }
+}

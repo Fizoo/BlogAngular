@@ -1,7 +1,7 @@
 <!--<app-card-page></app-card-page>-->
 
 
-<div *ngIf="posts.length; else loading">
+<div class="dashboard" *ngIf="posts.length; else loading">
   <div class="form-control">
     <input  type="text" placeholder="Search post..." [formControl]="searchControl">
     <!--[(ngModel)]="searchStr"-->

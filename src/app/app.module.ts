@@ -13,7 +13,8 @@ import {SharedModule} from "./shared/shared.module";
 import {HTTP_INTERCEPTORS} from "@angular/common/http";
 import {AuthInterceptor} from "./shared/auth.interceptor";
 import {IdxColorDirective} from "./shared/components/post/idx-color.directive";
-import { SwiperModule } from 'swiper/angular';
+
+
 
 
 registerLocaleData(ruLocale,'ru')
@@ -36,8 +37,7 @@ const  INTERCEPTOR_PROVIDERS:Provider={
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule,
-    SwiperModule
+    SharedModule
 
   ],
   providers: [INTERCEPTOR_PROVIDERS],
