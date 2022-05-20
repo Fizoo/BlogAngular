@@ -1,0 +1,117 @@
+{
+  "configVersion": 1,
+  "timestamp": 1653041467440,
+  "index": "https://Fizoo.github.io/BlogAngular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://Fizoo.github.io/BlogAngular/189.59dbd6eb628c12ba.js",
+        "https://Fizoo.github.io/BlogAngular/971.e5f69e4d2b9e6b9c.js",
+        "https://Fizoo.github.io/BlogAngular/favicon.ico",
+        "https://Fizoo.github.io/BlogAngular/index.html",
+        "https://Fizoo.github.io/BlogAngular/main.4f5c8382af781cc4.js",
+        "https://Fizoo.github.io/BlogAngular/polyfills.a42e231746995f56.js",
+        "https://Fizoo.github.io/BlogAngular/runtime.23d8c93becf8ccab.js",
+        "https://Fizoo.github.io/BlogAngular/styles.be77bc01d5dfbbc3.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://Fizoo.github.io/BlogAngular/assets/icons/icon-128x128.png",
+        "https://Fizoo.github.io/BlogAngular/assets/icons/icon-144x144.png",
+        "https://Fizoo.github.io/BlogAngular/assets/icons/icon-152x152.png",
+        "https://Fizoo.github.io/BlogAngular/assets/icons/icon-192x192.png",
+        "https://Fizoo.github.io/BlogAngular/assets/icons/icon-384x384.png",
+        "https://Fizoo.github.io/BlogAngular/assets/icons/icon-512x512.png",
+        "https://Fizoo.github.io/BlogAngular/assets/icons/icon-72x72.png",
+        "https://Fizoo.github.io/BlogAngular/assets/icons/icon-96x96.png",
+        "https://Fizoo.github.io/BlogAngular/material-icons-outlined.ad8e7ae1e81ff207.woff",
+        "https://Fizoo.github.io/BlogAngular/material-icons-outlined.b0aba383368a690e.woff2",
+        "https://Fizoo.github.io/BlogAngular/material-icons-round.8c6bfa6d1781177b.woff2",
+        "https://Fizoo.github.io/BlogAngular/material-icons-round.f1e2d11d8f347cb2.woff",
+        "https://Fizoo.github.io/BlogAngular/material-icons-sharp.5ae63808ce9dd96a.woff",
+        "https://Fizoo.github.io/BlogAngular/material-icons-sharp.d9ebf8c6f2ca7619.woff2",
+        "https://Fizoo.github.io/BlogAngular/material-icons-two-tone.2a9265fd314254d3.woff2",
+        "https://Fizoo.github.io/BlogAngular/material-icons-two-tone.abba2a5aa663a1e8.woff",
+        "https://Fizoo.github.io/BlogAngular/material-icons.93022d753d76c819.woff",
+        "https://Fizoo.github.io/BlogAngular/material-icons.b2e778574654069e.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "firebase-posts",
+      "patterns": [
+        "https:\\/\\/angular-blog-afd86-default-rtdb\\.firebaseio\\.com\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 10,
+      "maxAge": 0,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://Fizoo.github.io/BlogAngular/189.59dbd6eb628c12ba.js": "efc8a19076a9a31ccbde8e6ec70fd10d26133483",
+    "https://Fizoo.github.io/BlogAngular/971.e5f69e4d2b9e6b9c.js": "24fddd3e20d003ee9ccd0050f0f07d854ac51ec0",
+    "https://Fizoo.github.io/BlogAngular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://Fizoo.github.io/BlogAngular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://Fizoo.github.io/BlogAngular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://Fizoo.github.io/BlogAngular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://Fizoo.github.io/BlogAngular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://Fizoo.github.io/BlogAngular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://Fizoo.github.io/BlogAngular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://Fizoo.github.io/BlogAngular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://Fizoo.github.io/BlogAngular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://Fizoo.github.io/BlogAngular/index.html": "e5198fe4f772efbdd7eb213fb269bf86ac7f3c09",
+    "https://Fizoo.github.io/BlogAngular/main.4f5c8382af781cc4.js": "692bbb1e06c3bc16789229b96c2703196d76a158",
+    "https://Fizoo.github.io/BlogAngular/material-icons-outlined.ad8e7ae1e81ff207.woff": "936c7384662f4732da75e67a24bffbeec623dfdb",
+    "https://Fizoo.github.io/BlogAngular/material-icons-outlined.b0aba383368a690e.woff2": "52d2c87365329eb67a50e88ea0cde8daa8e0cfe0",
+    "https://Fizoo.github.io/BlogAngular/material-icons-round.8c6bfa6d1781177b.woff2": "ef817745f80016ce89d2812a9feb73518832c00c",
+    "https://Fizoo.github.io/BlogAngular/material-icons-round.f1e2d11d8f347cb2.woff": "2ed8982cabf62c5821ee9a71f6061322c94c831c",
+    "https://Fizoo.github.io/BlogAngular/material-icons-sharp.5ae63808ce9dd96a.woff": "016be5ff60440d774ee716975815b9dc64ec66b7",
+    "https://Fizoo.github.io/BlogAngular/material-icons-sharp.d9ebf8c6f2ca7619.woff2": "e8b36ec0274a6efe29da6c65e765d73a4beeabcd",
+    "https://Fizoo.github.io/BlogAngular/material-icons-two-tone.2a9265fd314254d3.woff2": "2f6d7f0797f00fa5ed189f62828fe0c3d08778c7",
+    "https://Fizoo.github.io/BlogAngular/material-icons-two-tone.abba2a5aa663a1e8.woff": "700e34ffbd400062557c9726031cd48ba7df070b",
+    "https://Fizoo.github.io/BlogAngular/material-icons.93022d753d76c819.woff": "9e2727799ac116da4c7e17b52f5bbae00b632471",
+    "https://Fizoo.github.io/BlogAngular/material-icons.b2e778574654069e.woff2": "6b612f44493bbb0692ef4063e973934af17194e0",
+    "https://Fizoo.github.io/BlogAngular/polyfills.a42e231746995f56.js": "669d6cba387bc8bec6308bdfe93ed59527f333fa",
+    "https://Fizoo.github.io/BlogAngular/runtime.23d8c93becf8ccab.js": "9ca72a9fb39a524dd9641be6044dcaa9976cf9d4",
+    "https://Fizoo.github.io/BlogAngular/styles.be77bc01d5dfbbc3.css": "d9bbb49f2203fc3506956cede9f462306aad160c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
